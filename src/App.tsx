@@ -1,12 +1,12 @@
-import { useState } from 'react';
-import { Form } from './Form';
-import './App.css';
+import { useState } from "react";
+import { Form } from "./Form";
+import "./App.css";
 
 function App() {
   const [formData, setFormData] = useState<Record<string, string>>({});
 
   const onSubmit = () => {
-    console.log('formData', JSON.stringify(formData));
+    console.log("formData", JSON.stringify(formData));
   };
 
   return (
